@@ -1,0 +1,111 @@
+/*
+  The following mediaquery è fatta alla cazzo di cane, da fixare quando si va in production ecc.
+  Scusate, odio CSS
+  Serve a rimpicciolire il line chart quando si è sotto una certa grandezza
+  Probabilmente per fixarla per bene bisogna disegnare un grafico diverso in JavaScript attraverso D3
+*/
+@media (min-width: 400px) and (max-width: 700px) {
+    #line-chart {
+      width: 400px;
+    }
+  }
+
+.container-svg {
+  float: left;
+}
+
+.panel-heading-demo, .panel-heading-demo-load {
+  background-color: #FCA311 !important;
+}
+
+.panel-heading-demo-pv {
+  background-color: #44BDB3 !important;
+}
+
+#tariffs {
+  margin: auto;
+  font-size: small;
+  height: 100px;
+}
+
+#hive-tariff {
+  width: 100px;
+  float: left;
+  height: 300px;
+}
+
+#pie-chart, #pie-chart-energy {
+  margin: auto;
+  display: block;
+}
+
+#grid-tariff {
+  width: 100px;
+  float: right;
+  height: 300px;
+}
+
+#pie-totals {
+  position: relative;
+  top: 50px;
+  font-size: small;
+  text-align: center;
+}
+
+#history{
+  position: absolute;
+  top: 900px !important;
+  left: 250px !important;
+}
+
+.legend-pic-pl {
+  width: 60px;
+  margin-right: 80px;
+}
+
+#pie {
+	width:80%;
+	position:absolute;
+	top:350px;
+	left:10px;
+	overflow:hidden;
+}
+
+#trend {
+	width:80%;
+	position:absolute;
+	top:350px;
+	left:800px;
+	overflow:hidden;
+}
+
+#history {
+	width:100%;
+	position:absolute;
+	top:120px;
+	left:0px;
+  overflow:hidden;
+}
+
+.bg-hivepower {
+  background-color:#FCA311 !important;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+#credit {
+  background-color: rgb(251,203,142);
+  color: white;
+  text-align: center;
+  font-size: x-large;
+
+}
+
+.smallerText {
+  font-size: small;
+}
