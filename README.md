@@ -1,13 +1,18 @@
-# demo-dapp
+# admin-dapp
 
-DAPP for Hive Power demonstrator:
+Admin DAPP for Hive Power
 
-It runs at http://192.64.116.55:3002, you need [Metamask](https://metamask.io) to be synced with Ropsten network.
+## How to run it
+
+1. Install node.js + npm
+2. Download the code
+3. Run `npm install` to install dependencies
+4. Build contracts, deploy them on ganache if needed
+5. To launch it run `npm run dev`
+
 
 **Useful links:**
 
 [Github demo-scripts](https://github.com/hive-power/demo-scripts)
 
 [Medium post](https://blog.hivepower.tech/demo-hive-our-first-successful-implementation-of-a-blockchain-based-energy-market-ff54bfe2d2c1)
-
-
