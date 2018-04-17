@@ -10,6 +10,10 @@ Admin DAPP for Hive Power
 4. Build contracts, deploy them on ganache if needed
 5. To launch it run `npm run dev`
 
+## TODO:
+
+1. Move the run from `lite-server` to simple node server (like we did for demo-dapp)
+
 
 **Useful links:**
 
